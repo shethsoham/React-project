@@ -1,0 +1,28 @@
+<!-- Injecting React in library and Creating Hello world in react-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+    <div id ="root"></div>
+    <!-- Imported React libraries -->
+     <!-- React : Core file of react -->
+    <!-- React Dom : React library useful for react operations -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script>
+        //1. react.create element
+        //2. create root
+        // 3. render
+        const heading = React.createElement("h1",{},"Hello Welcome to React World");
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(heading);
+
+    </script>
+     
+</body>
+</html>

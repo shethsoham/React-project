@@ -1,0 +1,42 @@
+{
+  "name": "b.ignition-of-application-episode-2",
+  "version": "1.0.0",
+  "description": "Creating react appliation on our own",
+  "scripts": {
+    "test": "Jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+<<<<<<< HEAD
+}
+
+=======
+>>>>>>> d3262e1 (added foldder again epsidoe 1,2,3)
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shethsoham/Namaste-React.git"
+  },
+  "keywords": [
+    "React",
+    "Js",
+    "Full",
+    "stack",
+    "frontend"
+  ],
+  "author": "Soham Sheth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shethsoham/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/shethsoham/Namaste-React#readme",
+  "dependencies": {
+    "parcel": "^2.13.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+<<<<<<< HEAD
+  
+
+=======
+>>>>>>> d3262e1 (added foldder again epsidoe 1,2,3)
+}
