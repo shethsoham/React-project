@@ -1,0 +1,25 @@
+{
+  "name": "exit",
+  "version": "1.0.0",
+  "description": "Food ordering application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html --port 1234",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "react",
+    "project",
+    "food",
+    "delivery",
+    "application"
+  ],
+  "author": "Soham Sheth",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.13.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
